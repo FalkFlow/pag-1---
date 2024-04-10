@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <title>Materiales</title>
+</head>
+<header>
+    <h1>Materials</h1>
+        <div class="menu">    
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="mision.html">Mision</a>
+                    </li>
+                    <li>
+                        <a href="materiales.html">Materiales</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="carrito">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-car">
+                    <path stroke-linecap="round" stroke-linejoin="round" 
+                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 
+                    1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+                <div class="contador">
+                    <span id="contador-productos">5</span>
+                </div>
+
+                <div class="productos-carro carro-oculto">
+                    <div class="carro-productos">
+                        <div class="info-carro-producto">
+                            <span class="cantidad-producto">1</span>
+                            <p class="nombre-producto">Lapiz Pasta</p>
+                            <span class="precio-producto-carro">$300</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                        viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" 
+                        class="borrar">
+                            <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <div class="carro-productos">
+                        <div class="info-carro-producto">
+                            <span class="cantidad-producto">2</span>
+                            <p class="nombre-producto">Kit de presición</p>
+                            <span class="precio-producto-carro">$40.000</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                        viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" 
+                        class="borrar">
+                            <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <div class="carro-productos">
+                        <div class="info-carro-producto">
+                            <span class="cantidad-producto">1</span>
+                            <p class="nombre-producto">Soldador de Alambre</p>
+                            <span class="precio-producto-carro">$500.000</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                        viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" 
+                        class="borrar">
+                            <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <div class="carro-productos">
+                        <div class="info-carro-producto">
+                            <span class="cantidad-producto">4</span>
+                            <p class="nombre-producto">Goma</p>
+                            <span class="precio-producto-carro">$600</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                        viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" 
+                        class="borrar">
+                            <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <div class="carro-productos">
+                        <div class="info-carro-producto">
+                            <span class="cantidad-producto">3</span>
+                            <p class="nombre-producto">Lapiz Mina</p>
+                            <span class="precio-producto-carro">$300</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" 
+                        viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="currentColor" 
+                        class="borrar">
+                            <path stroke-linecap="round" stroke-linejoin="round" 
+                            d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                    <div class="total-carro">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$541.200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
+<body>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="img/pen.png" alt="Producto 1">
+            </figure>
+            <div class="info-producto">
+                <h2>Lapiz Pasta</h2>
+                <p class="precio">$300</p>
+                <button>Añadir al carro</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="img/pencil.png" alt="Producto 2">
+            </figure>
+            <div class="info-producto">
+                <h2>Lapiz Mina</h2>
+                <p class="precio">$100</p>
+                <button>Añadir al carro</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="img/eraser.jpg" alt="Producto 3">
+            </figure>
+            <div class="info-producto">
+                <h2>Goma</h2>
+                <p class="precio">$150</p>
+                <button>Añadir al carro</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="img/presition set.jpg" alt="Producto 4">
+            </figure>
+            <div class="info-producto">
+                <h2>Kit de Herramientas de Presición</h2>
+                <p class="precio">$20.000</p>
+                <button>Añadir al carro</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_665279-MLU74996605647_032024-F.webp" alt="Producto 5">
+            </figure>
+            <div class="info-producto">
+                <h2>Soldador de Alambre</h2>
+                <p class="precio">$500.000</p>
+                <button>Añadir al carro</button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>Materials &copy; 2021</p>
+</footer>
+<script src="js/carro.js"></script>
+</html>
