@@ -326,3 +326,65 @@ footer{
     font-size: 40px;
     font-family: Lato;
 }
+
+.contacto{
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    align-items: center;
+    justify-content: left;
+    background-color: #CCC;
+    border: 1px solid rgba(0,0,0,0.20);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contactos{
+    list-style: none;
+    align-items: center;
+}
+
+.redes{
+    font-family: Calibri;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.redes:hover{
+    text-shadow: 0 0 5px rgba(0,0,0,0.80);
+}
+
+.red-social{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.scolumna{
+    border: 1px solid rgba(0,0,0,0.20);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+iframe{
+    border: 0;
+    margin: auto;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.scolumna:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.20);
+}
+
+.scolumna h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Calibri;
+    font-size: 30px;
+}
